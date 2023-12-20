@@ -1,29 +1,3 @@
-'''import turtle
-from turtle import *
-
-t = turtle.Turtle()
-turtle.listen()
-def drawHeart():
-    t.pensize(3)
-    t.shape('turtle')
-    t.color('black','red')
-    t.begin_fill()
-    t.left(140)
-    t.forward(224)
-    for _ in range(200):
-        t.right(1)
-        t.forward(2)
-    t.left(120)
-    for _ in range(200):
-        t.right(1)
-        t.forward(2)
-    t.forward(224)
-    t.end_fill()
-    t.write("ILOVEYOU", font =("Arial", '18', 'normal'))
-    t.goto(50,50)
-    turtle.done()
-    
-drawHeart()'''
 
 import turtle
 
